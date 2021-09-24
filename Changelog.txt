@@ -1,0 +1,6 @@
+v1.2 2020-05-07
+- Mengganti dikson dari persen menjadi nominal.
+
+DB change
+- tbl_order, discount from int to bigint.
+- tbl_order, add status_note.

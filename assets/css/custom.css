@@ -1,0 +1,124 @@
+.page-title-box {
+	background-color: #664249;
+}
+
+.user-sidebar {
+    background: url(../images/user-img.png) center center / cover no-repeat rgb(102, 35, 40);
+}
+
+.modal-content{
+                
+}
+
+tr,td{
+    padding: 6px 5px 5px 5px !important;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #ddd !important;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #ddd !important;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: #ddd !important;
+}
+
+.tox-tinymce-aux {
+    z-index: 99999999 !important;
+}
+
+.text-right{
+    text-align: right !important;
+}
+
+table#datatable>thead>tr,th {
+    height: 0px !important;
+}
+
+table#datatable>tbody>tr {
+    border: 1px solid #eee !important;
+}
+
+table#datatable>tbody>tr:active {
+    --bs-table-accent-bg: none !important;
+    background-color: #81d4fa !important;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+table.tw-hover>tbody>tr:hover {
+    --bs-table-accent-bg: none !important;
+    background-color: rgba(102, 35, 40, .2) !important;
+    transition: 0.5s;
+}
+
+td{
+    cursor: default !important;
+}
+
+@media (max-width: 992px){
+    .navbar-brand-box {
+        display: none !important;
+    }
+
+    .vertical-menu{
+        top: 0px !important;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    .page-content{
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+
+    #datatable_processing{
+        border: 2px solid #F28F7A !important;
+    }
+
+    
+}
+
+.mm-active>a {
+    color: #F28F7A!important;
+    background-color: #f5f7fa!important;
+}
+
+.mm-active>a:hover {
+    color: #F28F7A!important;
+    background-color: #f5f7fa!important;
+}
+
+.mm-active>a i {
+    color: #F28F7A!important;
+}
+
+.mm-active>a i:hover {
+    color: #F28F7A!important;
+}
+
+.mm-active .active {
+    color: #F28F7A!important;
+}
+
+.bg-primary{
+    background-color: #F28F7A;
+}
+
+.btn-primary{
+    background-color: #F28F7A!important;
+    border-color: #F28F7A!important;
+}
+
+.btn-primary:hover{
+    background-color: #664249!important;
+    border-color: #664249!important;
+}
+
+.page-item.active .page-link {
+    background-color: #F28F7A;
+    border-color: #F28F7A;
+}
